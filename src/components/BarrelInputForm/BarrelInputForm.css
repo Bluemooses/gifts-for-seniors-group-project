@@ -1,0 +1,46 @@
+#addDonationH3 {
+  margin-top: -2%;
+  text-align: left;
+  color: lightblue;
+}
+.addBarrelInput {
+  margin: 0.5%;
+  margin-top: 2%;
+  padding: 0.5%;
+  max-width: 100%;
+}
+.addBarrels {
+  /* background-color: antiquewhite; */
+  display: inline-flexbox;
+  max-height: 35%;
+  max-width: 100%;
+  margin: auto;
+  border: solid lightblue 3px;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 22px;
+}
+
+.addBarrelInput .MuiFormControl-root {
+  width: 100%;
+  background-color: lightblue;
+  margin: -1.5%;
+}
+/* 
+.addBarrelInput .MuiFormControl-root:hover {
+  color: lightsalmon;
+} */
+
+.emailAdd {
+  color: black;
+  display: inline-box;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+}
+
+.MuiFormControlLabel-label {
+  color: rgb(79 99 104);
+  margin-top: 100px;
+  padding-top: 15px;
+}

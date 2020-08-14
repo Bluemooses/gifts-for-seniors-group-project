@@ -1,0 +1,29 @@
+/* .image-gallery-image {
+  height: 100%;
+  width: auto;
+  height: 600px;
+  padding: -2%;
+  border: 1px;
+  border-radius: 22px;
+}
+
+
+
+
+
+.image-gallery-svg {
+  opacity: 100%;
+} */
+
+.image-gallery {
+  display: flexbox;
+  margin-left: 8%;
+  object-fit: contain;
+  /* height: 600px; */
+  flex: content;
+  margin-bottom: -.1%
+}
+
+.image-gallery-image {
+  height: 400px;
+}

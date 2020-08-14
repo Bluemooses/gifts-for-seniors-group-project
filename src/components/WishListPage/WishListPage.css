@@ -1,0 +1,90 @@
+.priorityHeader {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 2%;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: left;
+}
+
+#highPriority {
+  text-align: left;
+  display: inline-block;
+}
+
+.listHead {
+  padding-top: 2%;
+}
+
+.regularListHead {
+  margin-top: 1%;
+}
+.highPriorityItems {
+  background-color: #2483d0;
+
+  margin: auto;
+  width: 80%;
+  border-radius: 17px;
+  color: white;
+  box-shadow: black 10px;
+  padding: 1.7%;
+  margin-bottom: 1.7%;
+}
+
+.sentimentalMessage {
+  text-align: center;
+
+  /* display: center; */
+  /* float: center; */
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /* margin: 0.08%; */
+  /* border: 10px solid black; */
+  /* max-width: 50%; */
+  /* box-shadow: black 10px; */
+  /* padding: 2%; */
+  font-size: medium;
+  font-style: italic;
+}
+
+.regularItems {
+  background-color: slategray;
+  margin: auto;
+  width: 80%;
+  border-radius: 17px;
+  color: white;
+  box-shadow: black 10px;
+  padding: 1.7%;
+  /* margin-top: .1% */
+  margin-bottom: 0.5%;
+}
+
+.buttons {
+  display: inline-box;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+  color: white;
+}
+.amazon {
+  display: inline-box;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+  color: white;
+}
+
+.happy-image {
+  border-radius: 50%;
+}
+
+.amazonButton {
+  text-decoration: none;
+}
+.amazonButton::hover {
+  color: black;
+  text-decoration: none;
+}
+.amazonButton:link,
+.amazonButton:visited {
+  color: white;
+}

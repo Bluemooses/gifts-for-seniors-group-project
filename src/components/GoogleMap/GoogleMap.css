@@ -1,0 +1,19 @@
+.map {
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+}
+/* 
+.mapContainer {
+  object-fit: fill;
+} */
+.maperoo {
+  width: 70%;
+  justify-content: center;
+}
+
+.mapImage {
+  margin: auto;
+
+  padding: 2%;
+}

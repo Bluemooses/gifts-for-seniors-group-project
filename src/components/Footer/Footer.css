@@ -1,0 +1,17 @@
+footer {
+  margin-top: 2%;
+}
+
+.adminLogin {
+  color: #0352fc;
+  text-align: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  padding: 1.5%, 2%, 2%, 2%;
+  margin: 1%;
+  font-size: 15px;
+
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}

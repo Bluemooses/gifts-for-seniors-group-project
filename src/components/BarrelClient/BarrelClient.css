@@ -1,0 +1,72 @@
+.overlyingList {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.locationLists li {
+  margin: auto;
+  margin-top: 0.2%;
+  list-style: none;
+  padding: 0.8%;
+}
+
+.boldIt {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #2483d0;
+  border: 3px solid black;
+  border-radius: 17px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin: 0.05%;
+  max-width: 100%;
+}
+
+.privateBarrels {
+  display: flex;
+  flex-direction: row;
+  background-color: teal;
+  border: 3px solid black;
+  border-radius: 17px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin: 0.05%;
+  max-width: 100%;
+}
+
+.covid19Response {
+  padding: 1%;
+  font-style: italic;
+  text-align: left;
+  max-width: 35%;
+  color: black;
+}
+.email {
+  color: black;
+  display: inline-box;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+}
+
+.barrelMap {
+  margin: auto;
+}
+
+.employee {
+  text-decoration: underline;
+}
+
+.InsetMap {
+  object-fit: contain;
+}
+
+.emailAdd {
+  text-decoration: underline;
+}
+
+.emailAdd::hover {
+  background-color: lightblue;
+}

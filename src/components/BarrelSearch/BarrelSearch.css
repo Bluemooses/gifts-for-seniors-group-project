@@ -1,0 +1,44 @@
+#searchButton {
+  display: flexbox;
+  background-color: plum;
+  margin: 2%;
+}
+
+#searchField {
+  display: inline-flex;
+  text-align: center;
+  float: center;
+}
+
+#searchDisplay {
+  width: 20%;
+  text-decoration: underline;
+  color: #2483d0;
+  opacity: 80%;
+}
+#searchDisplay:hover {
+  cursor: pointer;
+}
+
+.barrelSearch {
+  text-align: center;
+  display: flexbox;
+  float: center;
+  width: 100%;
+}
+.searchLabel {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.searchBarrels {
+  margin-top: 1.5%;
+  padding: 2%;
+  border: solid lightblue 3px;
+  background-color: aliceblue;
+  border-radius: 22px;
+  padding-bottom: 0%;
+}
